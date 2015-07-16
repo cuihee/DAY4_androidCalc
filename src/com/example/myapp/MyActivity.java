@@ -28,7 +28,61 @@ public class MyActivity extends Activity {
     private Button btnequal = null;     //=
     private TextView resultText;
     private String displayed = "";
+    private float[] num;                //从resultText分析出num
+    private String[] op;                //从resultText分析出op
+    private int i, j, k;
 
+
+    void jiSuan(void){
+        int i, j, k, length_num = num.length, length_op = op.length;
+        boolean flag_multiplyOrDevide = false, flag_plusOrMinus = false;
+        while (length_num > 1){//里面两个while，外面这个没必要了
+            //找乘除
+            while (flag_multiplyOrDevide){
+                //计算并调整位置
+                length_num -= 1;
+                length_op -= 1;
+                //找乘除
+            }
+            //找加减
+            while (flag_plusOrMinus){
+                //计算并调整位置
+                length_num -= 1;
+                length_op -= 1;
+                //找加减
+            }
+        }
+        displayed = Float.toString(num[0]);
+
+    }
+
+     void fenXi(String displayed_in){
+        int op_i = 0, num_i = 0, displayed_in_i = 0, displayed_in_i_old = 0;
+        //获取非数字非小数点的符号位置
+        for (displayed_in_i = 0, displayed_in_i < displayed_in.length(), displayed_in_i++){
+            if ( (displayed_in.charAt(displayed_in_i) == ".")||
+                    ((displayed_in.charAt(displayed_in_i) >= "0")&&
+                            (displayed_in.charAt(displayed_in_i) <= "9")) )
+                continue;//当前位置是数字或者点就过
+            if (displayed_in.charAt(displayed_in_i) == "+")||
+                    (displayed_in.charAt(displayed_in_i) == "-")||
+                    (displayed_in.charAt(displayed_in_i) == "*")||
+                    (displayed_in.charAt(displayed_in_i) == "/")){
+                //中间那个取子字符串，开始位置和重点位置现在是有头无尾
+                num[num_i++] = Float.parseFloat(displayed_in.substring(displayed_in_i_old+1, displayed_in_i));
+                op[op_i++] = displayed_in.charAt(displayed_in_i);
+                displayed_in_i_old = displayed_in_i;
+            }
+            if (displayed_in.charAt(displayed_in_i) == "="){
+                //调用计算过程吧
+                jiSuan();
+
+            }
+        }
+        //如果是=号就输出resultText, return 0?
+        //取出来float放到num数组中
+        //取出来符号放在op数组中
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -201,7 +255,7 @@ public class MyActivity extends Activity {
             String temps = "=";
             displayed += temps;
 
-
+            fenXi(displayed);
 
             resultText.setText(displayed);
             Toast.makeText(getApplicationContext(), temps, Toast.LENGTH_SHORT).show();
