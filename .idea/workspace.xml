@@ -12,12 +12,27 @@
       </layout>
     </layouts>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="69461ae7-8f82-4061-a3f2-cce597f93482" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/myapp/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/myapp/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$DevideOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$DevideOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$EightOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$EightOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$EqualOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$EqualOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$FiveOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$FiveOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$FourOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$FourOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$MinusOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$MinusOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$MultiplyOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$MultiplyOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$NineOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$NineOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$OneOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$OneOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$PlusOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$PlusOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$PointOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$PointOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$SevenOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$SevenOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$SixOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$SixOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$ThreeOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$ThreeOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$TwoOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$TwoOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$ZeroOnClickListener.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity$ZeroOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity.class" afterPath="$PROJECT_DIR$/out/production/code/com/example/myapp/MyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/code.apk" afterPath="$PROJECT_DIR$/out/production/code/code.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/code/code.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/code/code.unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myapp.iws" />
@@ -43,8 +58,8 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/myapp/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74666667">
-              <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.7848537">
+              <caret line="72" column="65" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,6 +112,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -457,6 +477,13 @@
       <option name="number" value="Default" />
       <updated>1437014569845</updated>
     </task>
+    <task id="LOCAL-00001" summary="fenXi&#10;jiSuan&#10;没写完">
+      <created>1437061035886</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1437061035886</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -480,11 +507,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33770493" sideWeight="0.49715677" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33770493" sideWeight="0.49715677" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25264013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -514,6 +541,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fenXi&#10;jiSuan&#10;没写完" />
+    <option name="LAST_COMMIT_MESSAGE" value="fenXi&#10;jiSuan&#10;没写完" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -641,8 +672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/myapp/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74666667">
-          <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.7848537">
+          <caret line="72" column="65" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
