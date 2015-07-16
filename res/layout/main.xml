@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:persistentDrawingCache="animation|scrolling"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="end"
+        android:textSize="70sp"
+        android:text="@string/string_init_result"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resultText"
+        android:orientation="horizontal"
+        android:rowCount="7"
+        android:columnCount="4" >
+
+        <Button
+            android:id="@+id/seven"
+            android:textSize="50sp"
+            android:text="@string/button_seven"            />
+        <Button
+            android:id="@+id/eight"
+            android:textSize="50sp"
+            android:text="@string/button_eight"            />
+        <Button
+            android:id="@+id/nine"
+            android:textSize="50sp"
+            android:text="@string/button_nine"            />
+        <Button
+            android:id="@+id/devide"
+            android:textSize="50sp"
+            android:text="@string/button_devide"            />
+        <Button
+            android:id="@+id/four"
+            android:textSize="50sp"
+            android:text="@string/button_four"            />
+        <Button
+            android:id="@+id/five"
+            android:textSize="50sp"
+            android:text="@string/button_five"            />
+        <Button
+            android:id="@+id/six"
+            android:textSize="50sp"
+            android:text="@string/button_six"            />
+        <Button
+            android:id="@+id/multiply"
+            android:textSize="50sp"
+            android:text="@string/button_multiply"            />
+        <Button
+            android:id="@+id/one"
+            android:textSize="50sp"
+            android:text="@string/button_one"            />
+        <Button
+            android:id="@+id/two"
+            android:textSize="50sp"
+            android:text="@string/button_two"            />
+        <Button
+            android:id="@+id/three"
+            android:textSize="50sp"
+            android:text="@string/button_three"            />
+        <Button
+            android:id="@+id/minus"
+            android:textSize="50sp"
+            android:text="@string/button_minus"            />
+        <Button
+            android:id="@+id/zero"
+            android:textSize="50sp"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:text="@string/button_zero"            />
+        <Button
+            android:id="@+id/point"
+            android:textSize="50sp"
+            android:text="@string/button_point"            />
+        <Button
+            android:id="@+id/plus"
+            android:textSize="50sp"
+            android:layout_rowSpan="2"
+            android:layout_gravity="fill"
+            android:text="@string/button_plus"            />
+        <Button
+            android:id="@+id/equal"
+            android:textSize="50sp"
+            android:layout_columnSpan="3"
+            android:layout_gravity="fill"
+            android:text="@string/button_equal"            />
+</GridLayout>
+</RelativeLayout>
