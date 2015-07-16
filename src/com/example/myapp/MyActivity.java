@@ -201,7 +201,7 @@ public class MyActivity extends Activity {
             String temps = "=";
             displayed += temps;
 
-            
+
 
             resultText.setText(displayed);
             Toast.makeText(getApplicationContext(), temps, Toast.LENGTH_SHORT).show();
