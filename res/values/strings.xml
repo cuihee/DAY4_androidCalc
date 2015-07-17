@@ -18,5 +18,7 @@
     <string name="button_point">.</string>
     <string name="button_equal">=</string>
     <string name="string_init_result">0</string>
+    <string name="button_backspace">←</string>
+    <string name="button_clear">Clear</string>
 
 </resources>
