@@ -11,24 +11,6 @@ import java.lang.Math;
 
 
 public class MyActivity extends Activity {
-    private Button btnone = null;       //1
-    private Button btntwo = null;       //2
-    private Button btnthree = null;     //3
-    private Button btnfour = null;      //4
-    private Button btnfive = null;      //5
-    private Button btnsix = null;       //6
-    private Button btnseven = null;     //7
-    private Button btneight = null;     //8
-    private Button btnnine = null;      //9
-    private Button btnzero = null;      //0
-    private Button btnplus = null;      //+
-    private Button btnminus = null;     //-
-    private Button btnmultiply = null;  //*
-    private Button btndevide = null;    ///
-    private Button btnpoint = null;     //.
-    private Button btnequal = null;     //=
-    private Button btnbackspace = null;     //backspace
-    private Button btnclear = null;     //clear
     private TextView resultText;
     private String displayed = "";
     private float[] num = new float[10];                //displayed分析出num
@@ -130,46 +112,46 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        btnone = (Button)super.findViewById(R.id.one);
+        Button btnone = (Button) super.findViewById(R.id.one);
         btnone.setOnClickListener(new OneOnClickListener());
-        btntwo = (Button)super.findViewById(R.id.two);
+        Button btntwo = (Button) super.findViewById(R.id.two);
         btntwo.setOnClickListener(new TwoOnClickListener());
-        btnthree = (Button)super.findViewById(R.id.three);
+        Button btnthree = (Button) super.findViewById(R.id.three);
         btnthree.setOnClickListener(new ThreeOnClickListener());
 
-        btnfour = (Button)super.findViewById(R.id.four);
+        Button btnfour = (Button) super.findViewById(R.id.four);
         btnfour.setOnClickListener(new FourOnClickListener());
-        btnfive = (Button)super.findViewById(R.id.five);
+        Button btnfive = (Button) super.findViewById(R.id.five);
         btnfive.setOnClickListener(new FiveOnClickListener());
-        btnsix = (Button)super.findViewById(R.id.six);
+        Button btnsix = (Button) super.findViewById(R.id.six);
         btnsix.setOnClickListener(new SixOnClickListener());
 
-        btnseven = (Button)super.findViewById(R.id.seven);
+        Button btnseven = (Button) super.findViewById(R.id.seven);
         btnseven.setOnClickListener(new SevenOnClickListener());
-        btneight = (Button)super.findViewById(R.id.eight);
+        Button btneight = (Button) super.findViewById(R.id.eight);
         btneight.setOnClickListener(new EightOnClickListener());
-        btnnine = (Button)super.findViewById(R.id.nine);
+        Button btnnine = (Button) super.findViewById(R.id.nine);
         btnnine.setOnClickListener(new NineOnClickListener());
-        btnzero = (Button)super.findViewById(R.id.zero);
+        Button btnzero = (Button) super.findViewById(R.id.zero);
         btnzero.setOnClickListener(new ZeroOnClickListener());
 
-        btnplus = (Button)super.findViewById(R.id.plus);
+        Button btnplus = (Button) super.findViewById(R.id.plus);
         btnplus.setOnClickListener(new PlusOnClickListener());
-        btnminus = (Button)super.findViewById(R.id.minus);
+        Button btnminus = (Button) super.findViewById(R.id.minus);
         btnminus.setOnClickListener(new MinusOnClickListener());
-        btnmultiply = (Button)super.findViewById(R.id.multiply);
+        Button btnmultiply = (Button) super.findViewById(R.id.multiply);
         btnmultiply.setOnClickListener(new MultiplyOnClickListener());
-        btndevide = (Button)super.findViewById(R.id.devide);
+        Button btndevide = (Button) super.findViewById(R.id.devide);
         btndevide.setOnClickListener(new DevideOnClickListener());
 
-        btnpoint = (Button)super.findViewById(R.id.point);
+        Button btnpoint = (Button) super.findViewById(R.id.point);
         btnpoint.setOnClickListener(new PointOnClickListener());
-        btnequal = (Button)super.findViewById(R.id.equal);
+        Button btnequal = (Button) super.findViewById(R.id.equal);
         btnequal.setOnClickListener(new EqualOnClickListener());
 
-        btnbackspace = (Button)super.findViewById(R.id.backspace);
+        Button btnbackspace = (Button) super.findViewById(R.id.backspace);
         btnbackspace.setOnClickListener(new BackspaceOnClickListener());
-        btnclear = (Button)super.findViewById(R.id.clear);
+        Button btnclear = (Button) super.findViewById(R.id.clear);
         btnclear.setOnClickListener(new ClearOnClickListener());
 
         resultText = (TextView)super.findViewById(R.id.resultText);
